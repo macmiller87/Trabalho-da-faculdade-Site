@@ -1,0 +1,385 @@
+codigo_css_completo.txt html,
+
+body,
+h1,
+h2,
+h3,
+h4,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+h1 img {
+    display: block;
+}
+
+img {
+    border: 0;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #ffa405;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    background: #000000 url(/images/a78c9e320d1d6d69579eae8a01ef8d82.jpg) fixed center no-repeat;
+    font-family: verdana, arial, sans-serif;
+    color: rgba(105, 95, 76, 0.60);
+    padding-bottom: 10px;
+    background-size: cover;
+    background-blend-mode: exclusion;
+}
+
+/**Layout**/
+
+#wrapper {
+    text-align: left;
+    margin: 37px auto;
+    width: 672px;
+    background: #ffffff;
+    position: relative;
+}
+
+#header {
+    background: #f00;
+    height: 266px;
+    background-size: contain;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#header .dark {
+    width: 150px;
+    height: 250px;
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    width: 170px;
+    color: #000;
+}
+
+#logo h1 {
+    text-align: center;
+    font: bold 28px "arial narrow", arial, sans-serif;
+}
+
+#logo p {
+    color: #008;
+    margin: 0;
+    font-weight: bold;
+}
+
+#cart {
+    position: absolute;
+    top: 10px;
+    left: 456px;
+    width: 208px;
+    background: #f00;
+    width: 209px;
+    border-radius: 15px;
+    height: 85px;
+}
+
+#cart-cart {
+    font: bold 16px "arial narrow", arial, sans-serif;
+    background: 9px 11px url(/images/cart.gif) no-repeat;
+}
+
+#cart-cart {
+    padding: 8px 8px 8px 60px;
+    color: #fff;
+}
+
+#cart p {
+    color: #008;
+    margin: 0;
+}
+
+#cart.orange {
+    color: #ffb400;
+    font-size: 0.5rem;
+}
+
+#cart a {
+    color: #fff;
+    font-size: 0.6rem;
+}
+
+#cart a:hover {
+    color: #ffb400;
+    font-size: 0.8rem;
+}
+
+#nav {
+    background: #000;
+    position: absolute;
+    top: 100px;
+    left: 188px;
+    width: 480px;
+    padding: 0px 0; 
+    text-align: center;
+    border-radius: 40px;
+    color: white;
+    font-family: italic; 
+} 
+
+#nav li {
+    list-style: none;
+    display: inline;
+    color: #fff;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+#nav a:hover {
+    text-decoration: underline;
+    color: #000;
+    font-style: italic;
+}
+
+#gallery {
+    position: absolute;
+    top: 155px;
+    left: 187px;
+    width: 480px;
+
+}
+
+#gallery li {
+    list-style: none;
+    text-indent: 16px;
+    float: left;
+    overflow: hidden;
+    height: 111px;
+
+}
+
+#gallery .pic1 {
+    width: 120px;
+}
+
+#gallery .pic2 {
+    width: 120px;
+}
+
+#gallery .pic3 {
+    width: 120px;
+}
+
+#gallery .pic4 {
+    width: 120px;
+
+}
+
+#gallery img {
+    width: 80%;
+}
+
+#body {
+    padding-top: 3px;
+    background-color: #fff;
+}
+
+#categories {
+    float: left;
+    width: 195px;
+}
+
+#seasonal,
+#collection {
+    float: right;
+    width: 474px;
+    background: #f00;
+    margin-bottom: 2px;
+
+}
+
+#seasonal .inner {
+    padding: 6px 12px;
+    height: 220px;
+}
+
+#seasonal .inner iframe {
+    height: 100%;
+    width: 100%;
+    border: 0px solid;
+}
+
+#collection .inner {
+    padding: 6px 12px;
+    height: 150px;
+}
+
+#seasonal p,
+#collection p {
+    margin: 0.9rem 0;
+}
+
+h3 {
+    font: bold 141px "arial narrow", arial, sans-serif;
+    color: #1b1812;
+}
+
+h2 { 
+    font: 28px "arial narrow", arial, sans-serif;
+    color: #000;
+    padding-bottom: 10px;
+
+}
+
+#categories h2 {
+    color: #000;
+    padding: 4px 0 5px 39px;
+    background: #f00;
+}
+
+#categories li {
+    background: #f00;
+    background-image: #f00 left url(/images/bullet.gif)no-repeat;
+    border-top: 1px solid #f4efdf;
+    list-style: none;
+    font-size: 0.8rem;
+    padding: 9.6px 0 8px 35px;
+}
+
+#categories li:hover {
+    background: rgba(16, 65, 145, 0.42)left url(/images/bullet.gif)no-repeat;
+    border-top: 1px solid #f4efdf;
+    font-size: 1rem;
+    padding: 10px 0 8px 35px;
+}
+
+#categories a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#categories a:hover {
+    text-decoration: underline;
+    color: #fff;
+    font-weight: bold;
+}
+
+#collection {
+    background:  #f00 bottom right url(/images/image_comics.png) no-repeat;
+    background-size: 20% 100%;
+    padding-bottom: 12px;
+
+}
+
+#collection .inner {
+    padding-right: 98px;
+}
+
+#minigal {
+    float: right;
+    width: 222px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#minigal div {
+    float: left;
+    margin: 6px;
+}
+
+#minigal img {
+    width: 57px;
+    height: 53px;
+}
+
+#collection ul {
+    margin-left: 1.5rem;
+}
+
+#collection li {
+    margin: 0.2rem 0;
+    color: #008;
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-family: "arial narrow", arial, sans-serif;
+}
+
+#collection p {
+    width: 103px;
+    margin-left: 1.1rem;
+    font-size: 0.8rem;
+    color: #008;
+}
+
+#seas-one,
+#seas-two,
+#seas-three {
+    height: 146px;
+}
+
+#seas-one {
+    float: left;
+    width: 195px;
+    margin-right: 3px;
+    background-color: #f00;
+    background: url(/images/marvel5.gif) no-repeat;
+}
+
+#seas-two {
+    float: left;
+    width: 249px;
+    margin-right: 3px;
+    background-color: #f00;
+    background: url(/images/marvel5.gif) no-repeat;
+}
+
+#seas-three {
+    float: left;
+    width: 222px;
+    background-color: #f00;
+    background: url(/images/marvel5.gif) no-repeat;
+    background-size: cover;
+}
+
+#seas p {
+    text-align: right;
+    color: #fff;
+    margin: 80px 15px 0 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#seas p.date {
+    margin-top: 0;
+    font-size: 1rem;
+}
+
+#copyright {
+    background: #f00;
+    color: #000;
+    text-align: center;
+    font-size: 0.7rem;
+    padding: 3px;
+}
